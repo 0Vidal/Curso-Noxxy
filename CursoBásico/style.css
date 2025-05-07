@@ -1,0 +1,15 @@
+:root{
+    --roxo-texto-e-botao: #8470DB; 
+    --branco-texto: #FFFFFF;
+    --cor-fraca: #C0C0C0;
+    --cor-de-fundo: #240F33;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+.conteiner1{
+    color: var(--branco-texto);
+    background-image: url(img/Noxxy.png);
+}
