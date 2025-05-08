@@ -5,11 +5,40 @@
     --cor-de-fundo: #240F33;
 }
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 body{
     background-color: var(--cor-de-fundo);
 }
 
-.conteiner1{
+.Principal{
     color: var(--branco-texto);
-    background-image: url(img/Noxxy.png);
+    background-image: url("img/Noxxy.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+.conteiner{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+}
+
+.conteiner_botao{
+    background-color: var(--roxo-texto-e-botao);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-texto);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-texto);
 }
