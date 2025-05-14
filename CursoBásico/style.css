@@ -3,6 +3,7 @@
     --branco-texto: #FFFFFF;
     --cor-fraca: #C0C0C0;
     --cor-de-fundo: #240F33;
+    --fonte-unica: 'Inter';
 }
 
 *{
@@ -12,6 +13,9 @@
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-unica);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .Principal{
@@ -36,9 +40,15 @@ body{
     text-decoration: none;
     display: block;
     text-align: center;
+    text-decoration: none;
 }
 
 .botao_secundario{
     background-color: transparent;
     border: 2px solid var(--branco-texto);
+}
+
+.conteiner_aviso{
+    font-size: 14px;
+    color: var(--cor-fraca);
 }
