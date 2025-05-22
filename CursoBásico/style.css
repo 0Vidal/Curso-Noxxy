@@ -23,13 +23,14 @@ body{
     background-image: url("img/Noxxy.png");
     background-repeat: no-repeat;
     background-size: contain;
-    text-align: center;
+    align-items: center;
+    text-align: center;  
 }
 
 .conteiner{
     height: 100vh;
     display: grid;
-    grid-template-columns: 33% 33% 33%; 
+    grid-template-columns: 45% 45%; 
 }
 
 .conteiner_botao{
@@ -41,6 +42,8 @@ body{
     display: block;
     text-align: center;
     text-decoration: none;
+    margin: 1em 0 1em 0;
+    font-size: 20px;
 }
 
 .botao_secundario{
@@ -49,6 +52,34 @@ body{
 }
 
 .conteiner_aviso{
-    font-size: 14px;
+    font-size: 16px;
     color: var(--cor-fraca);
+}
+
+.conteiner_titulo{
+    font-size: 38px;
+    font-weight: 700;
+    margin: 1em 0 1em 0;
+}
+
+.conteiner_div{
+    margin: 0 6em;
+    align-content: center;
+}
+
+.Secundario{
+    color: var(--branco-texto);
+    align-items: center;
+    margin: 0 10em;
+}
+
+.imagem{
+    width: 80%;
+}
+
+.conteiner_title{
+    color: var(--roxo-texto-e-botao);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0.2em;
 }
