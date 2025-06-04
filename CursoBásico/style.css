@@ -2,6 +2,7 @@
     --roxo-texto-e-botao: #8470DB; 
     --branco-texto: #FFFFFF;
     --cor-fraca: #C0C0C0;
+    --cor-botao: #9B1BEA;
     --cor-de-fundo: #240F33;
     --fonte-unica: 'Inter';
 }
@@ -16,6 +17,7 @@ body{
     font-family: var(--fonte-unica);
     font-size: 16px;
     font-weight: 400px;
+    color: var(--branco-texto);
 }
 
 .Principal{
@@ -68,9 +70,8 @@ body{
 }
 
 .Secundario{
-    color: var(--branco-texto);
     align-items: center;
-    margin: 0 10em;
+    margin: 0 1em;
 }
 
 .imagem{
@@ -111,4 +112,41 @@ p{
     font-size: 40px;
     text-align: center;
     margin: 6em 0;
+}
+
+.Rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista_link a{
+    text-decoration: none;
+    color: var(--cor-fraca);
+    margin-left: 1.5em;
+}
+
+.rodape_texto{
+    margin: 1em 0;
+    color: var(--cor-fraca);
+    font-size: 14px;
+}
+
+.conteiner_botao:hover{
+    background-color: var(--cor-botao);
+}
+
+.botao_secundario:hover{
+    background-color: transparent; 
+    border-color: var(--cor-botao);
+}
+
+#botao_segundasecao:hover{
+    background-color: var(--cor-botao);
 }
